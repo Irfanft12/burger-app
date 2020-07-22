@@ -1,3 +1,11 @@
-.content {
+.Content {
     margin-top: 15px;
+    padding: 0 20px;
+}
+
+@media (min-width: 1000px) {
+    .Content {
+        display: flex;
+        align-items: flex-start;
+    }
 }
