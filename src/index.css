@@ -1,5 +1,5 @@
-div:focus {
-outline: none;
+* {
+  box-sizing: border-box;
 }
 body {
   margin: 0;
