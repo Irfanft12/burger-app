@@ -1,0 +1,31 @@
+.Input {
+    width: 100%;
+    padding: 10px;
+}
+.Input label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+.Input input,
+.Input textarea,
+.Input select {
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+}
+
+.Input input:focus,
+.Input textarea:focus {
+    outline: none;
+    background-color: #ccc;
+
+}
+
+.Input .Invalid {
+    border: 1px solid red;
+    background-color: #fda399;
+}
